@@ -1,0 +1,87 @@
+.text-center {
+    text-align: center;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(211, 211, 211);
+}
+
+.container {
+    background-color: rgb(107, 107, 107);
+    border: solid 2px black;
+    border-radius: 10px;
+    max-width: 50vh;
+    height: 72vh;
+}
+
+.button {
+    width: 66px;
+    font-size: 20px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.row {
+    margin: 8px 0;
+
+}
+
+.row input {
+    background-color: rgb(192, 192, 192);
+    color: black;
+    width: 291px;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+    padding: 20px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: end;
+}
+
+.operator {
+    background-color: orange;
+    color: black;
+    border: solid 2px black;
+}
+
+.operator:hover {
+    background-color: darkorange;
+    color: white;
+    border: solid 2px black;
+}
